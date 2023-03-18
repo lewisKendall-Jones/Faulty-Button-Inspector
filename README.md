@@ -1,4 +1,4 @@
-# Faulty-Button-Inspector
+# Product Inspector
 This program is intended for the use of quality control in manufacturing.
 
 Using infrared imaging and .ppm formatting, this program searches for defects in products, such as buttons, by comparing the average pixel count of all products 
