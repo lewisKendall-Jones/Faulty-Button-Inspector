@@ -1,5 +1,5 @@
-# Product Inspector
-This program is intended for the usage of quality control in manufacturing.
+# Recursive Image Inspector
+This program is designed for the purpose of quality control in manufacturing.
 
 Using image processing with .ppm formatting, this program searches for defects in products, such as buttons, 
 by comparing the highest pixel count of all products to the pixel count of each product. The pixel counts of 
@@ -9,8 +9,7 @@ exceeding the tolerance of variance compared to the highest pixel count.
 ## Criteria:
 - All products for inspection must be in the same .ppm file
 - Products must not be overlapping or touching
-- Defects must cause a loss in pixels (chipping, imprecise drilling, missing parts etc.)
-- Defects must not cause a gain in pixels (incomplete drilling, mold overpour, melting, etc.)
+- Defects to be detected must cause a loss in pixels 
 - The .ppm file must be formatted to P3
 - The image must be in black and white
 
